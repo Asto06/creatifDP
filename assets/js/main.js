@@ -130,12 +130,12 @@
   /**
    * Mobile nav dropdowns activate
    */
-  on('click', '.navbar .dropdown > a', function(e) {
-    if (select('#navbar').classList.contains('navbar-mobile')) {
-      e.preventDefault()
-      this.nextElementSibling.classList.toggle('dropdown-active')
-    }
-  }, true)
+  // on('click', '.navbar .dropdown > a', function(e) {
+  //   if (select('#navbar').classList.contains('navbar-mobile')) {
+  //     e.preventDefault()
+  //     this.nextElementSibling.classList.toggle('dropdown-active')
+  //   }
+  // }, true)
 
   /**
    * Scrool with ofset on links with a class name .scrollto
@@ -287,4 +287,14 @@
   });
 
 })()
+
+document.addEventListener("DOMContentLoaded", function() {
+  var textElement = document.querySelector('.text-services');
+  var readMoreButton = document.querySelector('.read-more');
+  
+  readMoreButton.addEventListener('click', function() {
+    textElement.style.maxHeight = 'none';
+    readMoreButton.style.display = 'none';
+  });
+});
 
