@@ -296,7 +296,7 @@ function sendMail() {
   const valueSubject = document.getElementById('subjectContact').value
   const valueMessage = document.getElementById('messageContact').value
 
-  const valueEmail = `${valueName}\n${valueNumber}\n${valueMessage}\n${valueSubject}`
+  const valueEmail = `${valueName}\n${valueNumber}\n${valueMessage}\n}`
   console.log(valueEmail)
 
   var link = "mailto:kinantanoas@gmail.com"
