@@ -299,11 +299,11 @@ function sendMail() {
   const valueEmail = `${valueName}\n${valueNumber}\n${valueMessage}\n${valueSubject}`
   console.log(valueEmail)
 
-  // var link = "mailto:kinantanoas@gmail.com"
-  //          + "?cc=myCCaddress@example.com"
-  //          + "&subject=" + encodeURIComponent("This is my subject")
-  //          + "&body=" + encodeURIComponent(valueEmail)
+  var link = "mailto:kinantanoas@gmail.com"
+           + "?cc=myCCaddress@example.com"
+           + "&subject=" + encodeURIComponent("This is my subject")
+           + "&body=" + encodeURIComponent(valueEmail)
   
-  // window.location.href = link;
+  window.location.href = link;
 }
 
