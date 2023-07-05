@@ -86,7 +86,7 @@ h6 {
   top: calc(50% - 30px);
   left: calc(50% - 30px);
   border: 6px solid #691a1d;
-  border-top-color: #bfe0fd;
+  border-top-color: #fff;
   border-radius: 50%;
   width: 60px;
   height: 60px;
@@ -1781,7 +1781,7 @@ section {
 
 .blog .entry .entry-meta {
   margin-bottom: 15px;
-  color: #2b99f8;
+  color: #d91c22;
 }
 
 .blog .entry .entry-meta ul {
@@ -1864,7 +1864,7 @@ section {
   top: 0;
   bottom: 0;
   width: 3px;
-  background-color: #0880e8;
+  background-color: #d7393f;
   margin-top: 20px;
   margin-bottom: 20px;
 }
@@ -1999,7 +1999,7 @@ section {
 
 .blog .blog-comments .comment h5 .reply {
   padding-left: 10px;
-  color: #0880e8;
+  color: #691a1d;
 }
 
 .blog .blog-comments .comment h5 .reply i {
@@ -2009,7 +2009,7 @@ section {
 .blog .blog-comments .comment time {
   display: block;
   font-size: 14px;
-  color: #2b99f8;
+  color: #691a1d;
   margin-bottom: 5px;
 }
 
@@ -2062,11 +2062,11 @@ section {
   border-radius: 4px;
   padding: 10px 20px;
   border: 0;
-  background-color: #0880e8;
+  background-color: #691a1d;
 }
 
 .blog .blog-comments .reply-form .btn-primary:hover {
-  background-color: #138df7;
+  background-color: #691a1d;
 }
 
 .blog .blog-pagination {
