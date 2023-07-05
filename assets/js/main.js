@@ -288,13 +288,22 @@
 
 })()
 
-document.addEventListener("DOMContentLoaded", function() {
-  var textElement = document.querySelector('.text-services');
-  var readMoreButton = document.querySelector('.read-more');
+
+
+function sendMail() {
+  const valueName = document.getElementById('nameContact').value
+  const valueNumber = document.getElementById('numberContact').value
+  const valueSubject = document.getElementById('subjectContact').value
+  const valueMessage = document.getElementById('messageContact').value
+
+  const valueEmail = `${valueName}\n${valueNumber}\n${valueMessage}\n${valueSubject}`
+  console.log(valueEmail)
+
+  // var link = "mailto:kinantanoas@gmail.com"
+  //          + "?cc=myCCaddress@example.com"
+  //          + "&subject=" + encodeURIComponent("This is my subject")
+  //          + "&body=" + encodeURIComponent(valueEmail)
   
-  readMoreButton.addEventListener('click', function() {
-    textElement.style.maxHeight = 'none';
-    readMoreButton.style.display = 'none';
-  });
-});
+  // window.location.href = link;
+}
 
