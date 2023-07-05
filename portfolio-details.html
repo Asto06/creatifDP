@@ -124,10 +124,9 @@
             <div class="portfolio-description" >
               <div class="container">
                 <b> Ukuran product : </b>
-                
-                <div class="col-lg-12 text-center" style="margin: auto;">
-                  <div class="column text-center">
-                    <div class="col-lg-12 col-md-8 col-sm-8 border text-center" style="height: 80px;padding-left: 10px;">
+                <div class="col-lg-12 " style="margin: auto; padding-top: 10px;">
+                  <div class="column text-center" style="margin-bottom: 10px;">
+                    <div class="col-lg-12 col-md-8 col-sm-8 border text-center" style="height: 80px;">
                       4x10
                     </div>
                     <div class="col-lg-12 col-md-8 col-sm-8 border"  style="height: 80px;">
@@ -142,6 +141,29 @@
                   </div>
 
                   <p>ingin request ukuran lainnya ke <b>example@gmail.com</b></p>
+                  <!-- Button trigger modal -->
+                  <button href="" type="button" id="requestUkuran" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal" style="background-color: #691a1d; color: white; width: auto; height: 50px; font-size: 12px;">
+                   <span> Request disini</span>
+                  </button>
+
+                  <!-- Modal -->
+                  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="exampleModalLabel">Notification</h5>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          ...
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                          <button type="button" class="btn" style="background-color: #691a1d; color: aliceblue;">Request</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
